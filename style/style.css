@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
 
 }
+main{
+    max-width: 1140px;
+    margin: auto;
+}
 
 /* banner part css */
 .banner-details{
@@ -23,11 +27,31 @@
     
 
 }
+.banner-details-part{
+    /* width: 100%;
+    height: 80vh;
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    -webkit-box-reflect:right ;
+     */
+     display: flex;
+     
+}
+.banner-details-part div{
+    text-align: left;
+    display: block;
+    align-items: center;
+    padding-top: 100px;
+    margin-left: 200px; 
+}
 .banner-details h1 {
     margin-bottom: 20px;
     font-weight: 900;
     font-size: 35px;
 
+}
+.img-banner{
+    transform: scaleX(-1);
 }
 
 .btn-primary{
@@ -72,4 +96,30 @@
     font-size: 26px;
     
 }
+.positive{
+    margin-top: 60px;
+    background-image: url("../images/gradient1.png"),url("../images/watch.png");
+    background-repeat: no-repeat;
+}
+.positive-banner{
+    padding: 50px;
+}
+.positive-banner h1{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+
+
+/* extra-part */
+
+.extra-part{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
