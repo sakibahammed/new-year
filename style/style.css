@@ -66,6 +66,8 @@ main{
 
 
 
+
+
 /* main part  */
 
 
@@ -119,6 +121,9 @@ main{
     justify-content: center;
     align-items: center;
 }
+.extra-part-text h1{
+    font-size: 36px
+}
 
 
 
@@ -139,8 +144,12 @@ footer{
 .footer-class{
     width: 25%;
 }
+.footer-class h1,p{
+    margin-bottom: 15px;
+}
 .footer-class a{
     text-decoration: none;
+    margin-left: 10px
 }
 
 
