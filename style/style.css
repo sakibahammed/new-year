@@ -41,3 +41,35 @@
 }
 
 
+
+/* main part  */
+
+
+.container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-heading{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+
+/* my plans */
+.my-plan-container{
+    margin-top: 55px;
+}
+.plan-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 55px;
+}
+.my-plan h4{
+    font-size: 26px;
+    
+}
+
